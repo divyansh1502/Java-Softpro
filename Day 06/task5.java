@@ -20,3 +20,4 @@ public class task5 {
         return result;
     }
 }
+//Day 07 task
