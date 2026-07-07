@@ -1,0 +1,23 @@
+Loop Controls:- if you have a block of code which you want to use it repetedly then we use a loop control. In java there are following types of loop controls:-
+
+1.while loop
+1.for loop
+1.do hile loop
+1.for-each loop
+
+While loop:- While is a keyword which works as a loop control.
+
+Syntax:-
+// initilization of loop counter;
+// int x;
+while(condition) {
+    //code
+    //incrementation => update the loop counter
+}
+
+Ex: 
+int c = 1;
+while(c <= 5) {
+    System.out.println(c);
+    c++;
+}

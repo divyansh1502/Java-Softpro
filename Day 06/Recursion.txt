@@ -1,0 +1,8 @@
+Recursion:- When a method call itself then it is called `Recursion`.
+
+5!:- 5*4*3*2*1=120
+
+static int fact(n) {
+    if(n == 1) return 1;
+    return n*fact(n-1);
+}

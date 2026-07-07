@@ -1,0 +1,27 @@
+String:- Technically string is an array of char data type. In java string is a class. The object of string class stores the sequence of characters.
+
+Methods of String class:-
+
+1. toUpperCase():- toUpperCase() method converts String into uppercase.
+2. toLowerCase():- toLowerCase() method converts String into lowercase.
+3. length():- length() method is used to find the length of String.
+
+equals():- equals() method of String class is used to compare two strings for equality. This method returns Boolean value.
+
+equalsIgnoreCase():- equalsIgnoreCase() method of String class is used to compare two Strings for equality, but this method avoid case senstivity.
+
+split():- split() method of String class split string into sub-strings from given string. This method return array of String type.
+
+String a = "He is a good boy.";
+String[] words = a.split(" ");
+
+words[0] = "He";
+words[1] = "is";
+words[2] = "a";
+words[3] = "good";
+words[4] = "boy.";
+
+replace():- replace() method of String class replace one String with another String in given String.
+
+String a = "He is a good boy".
+System.out.println(a.replace("good","sincere"));

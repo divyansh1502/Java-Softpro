@@ -1,0 +1,8 @@
+do-while : In do-while loop condition is tested after execution of code. So do-while is called exit control.
+Syntax:-
+Initilization of loop counter;
+do{
+    //code
+    update loop counter;
+}
+while(condition);

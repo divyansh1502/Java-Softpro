@@ -1,0 +1,31 @@
+Method:- Method is a named block of code which performs a specific task. If you have a block of code which is required at a different location of the program. Then you can create a method of that code and call it from desired locations.
+By using method you can avoid writing the same quote over and over.
+                                            OR
+A method is a block of code that performs a specific task. It helps avoid writing the same code multiple times and makes programs easier to read and maintain.
+
+Parts of a Method
+Access Modifier – public, private, etc.
+Return Type – Type of value returned (int, String, void, etc.)
+Method Name – Name used to call the method.
+Parameters – Input values passed to the method.
+Method Body – The code that executes when the method is called.
+
+Syntax to create a method in Java:-
+
+<modifier> <return type> method_name(parameters) {
+    //code
+}
+E.g. 
+public int add(int a, int b) {
+    return a + b;
+}
+
+Types of Method in Java : In Java programming language there are two types of methods. 
+1.static method
+2.non-static method
+
+static method:- static method are those methods which are created by using `static` modifier. These methods are also called class method. These method can be call without object.
+
+non static method:- Non-static methods are those methods which are created without using static modifiers. These method can be call by using object only.
+
+Note:- You can create a method inside a class and outside main() method.

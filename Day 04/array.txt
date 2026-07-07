@@ -1,0 +1,32 @@
+Array:- Array is a collection of similar data types. Stored in contiguous memory allocation. It has a staring index 0 and increases by 1 till end. [0 to (n-1)]
+
+Declaration of array in Java :- 
+
+data_type[] array_name = new data_type[size];
+int[] arr = new int[5];
+
+                    OR
+
+int[] arr = {25, 565, 24, 67, 93};
+
+The above array named arr can store ten numbers of int type;
+        
+
+
+
+                            OR
+
+An array in Java is an object that stores a fixed number of values of the same data type in contiguous memory locations. Each element is accessed using an index, where indexing starts from 0.                           
+
+Key Points:-
+Stores multiple values of the same data type.
+Has a fixed size that cannot be changed after creation.
+Elements are accessed using an index.
+The first element is at index 0, the second at index 1, and so on.
+
+Example:-
+
+int[] numbers = {10, 20, 30, 40, 50};
+
+System.out.println(numbers[0]); // Output: 10
+System.out.println(numbers[2]); // Output: 30

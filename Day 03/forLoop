@@ -1,0 +1,7 @@
+for loop:- for is a keyword which works as a loop control. The working of for loop is same like while loop but the syntax is different.
+
+Syntax:-
+
+for(initilization; condition; incrementation) {
+    //code
+}
