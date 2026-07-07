@@ -1,0 +1,14 @@
+Two Dimensional Array:- Two Dimensional array has two sub script one for the row and another for the column which forms a matrix.
+
+How to Declare :
+data_type[][] array_name = new data_type[row_size][col_size];
+E.g.
+int[][] arr = new int[3][2];
+
+Initilazation of Matrix :
+int[][] arr = {
+                1,2,
+                3,4
+            }
+
+
