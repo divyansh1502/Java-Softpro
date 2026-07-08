@@ -38,7 +38,7 @@ public class task3 {
             if(a[i].length != b[i].length) {
                 return false;
             }
-            for (int j = 0; j < a[i].length; j++) {
+        for (int j = 0; j < a[i].length; j++) {
             if(a[i][j] != b[i][j]) {
                 return false;
             }
