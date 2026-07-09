@@ -1,0 +1,16 @@
+Constructor:- Constructor is a special method which is used to initiliaze instance varibles. The Constructor has following properties:-
+
+1. Constructor name is same as class name.
+2. Constructor has no return type.
+3. Constructor call automatically  as soon as an object is created.
+
+Inheritance:- Inheritance is a feature of OOPS. In inheritance you can create a new class base/upper/super/parent class and new created class is called derived/sub/child class.
+    The concept of inheritance is also called `reusability`.
+
+    Syntax:- 
+    class A {
+        //variables and methods
+    }
+    class B extends A {
+        //varibles and methods
+    }
