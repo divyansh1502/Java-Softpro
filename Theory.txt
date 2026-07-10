@@ -127,7 +127,7 @@ Types of Polymorphism in Java:-
         }
     }
 
-    Method Overriding:- Rewriting of base class method into derived class is called method overriding.
+ 2. Method Overriding:- Rewriting of base class method into derived class is called method overriding.
 
     Example:-
 
