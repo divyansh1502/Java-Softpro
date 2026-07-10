@@ -1,0 +1,179 @@
+Types of inheritance in Java:- In Java programming there are 3 type of inheritance are supported:-
+
+1. Single inheritance
+2. Hierarchical inheritance
+3. Multi-level inheritance
+
+1. Single Inheritance:- In single inheritance, there is a single base class and a single derived class. 
+
+        class A{
+            //code
+        }
+        class B extends A {
+            //code
+        }
+
+        +----------------+   
+        |   Base Class   |
+        |----------------|
+        |  data members  |
+        |  member funcs  |
+        +----------------+
+               ▲
+               |
+         inherits
+               |
+        +----------------+
+        | Derived Class  |
+        |----------------|
+        | own members    |
+        | own functions  |
+        +----------------+
+
+2. Hierarchical inheritance:- In hierarchical inheritance, there is a single base class and multiple derived classes. 
+
+            class A {
+                //code
+            }
+            class B extends A {
+                //code
+            }
+            class C extends C {
+
+            }
+
+            +----------------+
+            |   Base Class A  |
+            |----------------|
+            |  data members  |
+            |  member funcs  |
+            +----------------+
+               ▲          ▲
+               |          |
+         inherits    inherits
+               |          |
+     +----------------+  +----------------+
+     | Derived Class B|  | Derived Class C|
+     |----------------|  |----------------|
+     | own members    |  | own members    |
+     | own functions  |  | own functions  |
+     +----------------+  +----------------+
+
+     3. Multi-Level Inheritance:- Multilevel inheritance is a type of inheritance in which a class is derived from another derived class. In this type, one class inherits the properties of a base class, and another class further inherits the properties of that derived class.
+
+            class A {
+                //code
+            }
+            class B extends A {
+                //code
+            }
+            class C extends B {
+                //code
+            }
+
+           +----------------+
+           |   Base Class   |
+           |----------------|
+           | data members   |
+           | member funcs   |
+           +----------------+
+                  ▲
+                  |
+             inherits
+                  |
+           +----------------+
+           | Derived Class1 |
+           |----------------|
+           | own members    |
+           | own functions  |
+           +----------------+
+                  ▲
+                  |
+             inherits
+                  |
+           +----------------+
+           | Derived Class2 |
+           |----------------|
+           | own members    |
+           | own functions  |
+           +----------------+
+
+Concept of Ploymorphism in Java 
+
+Polymorphism:- The term Polymorphism means one thing many forms.
+
+Polymorphism is an Object-Oriented Programming (OOP) concept in which a single method or object can perform different actions depending on the situation. The word polymorphism means "many forms."
+
+Types of Polymorphism in Java:-
+
+1. Compile-time Polymorphism (Method Overloading)
+2. Run-time Polymorphism (Method Overriding)
+
+1. Method Overloading:- In Java we can create multiple methods with same name in same class but there parameters should be different. Based on method parametersit is decided at compile time that which method will execute. This concept is called method Overloading.
+    Methods parameters can bve different in two types:-
+
+    1. Numbers of parameterscan be different.
+    2. Types of parameters can be different.
+
+    class figure {
+        int area(int s) {
+            return s * s; // Area of Square
+        }
+        int area(int l, int b) {
+            return l * b; // Area of Reactangle
+        }
+        int area(double r) {
+            return 3.14 * r * r; // Area of circle
+        }
+    }
+
+    Method Overriding:- Rewriting of base class method into derived class is called method overriding.
+
+    Example:-
+
+    class Connection {
+        void connect() {
+            //code to connect with oracle database
+        }
+    }
+    class newConnection extends Connection {
+        void connect() {
+            //code to connect with MySQL database
+        }
+    }
+
+Rules for method overriding:-
+
+1. Class must be inheritated.
+2. Base class method name and derived class methid name must be same.
+3. Base class method parameter and derive class method parameter must be same.
+4. Base class method return type and derive class method return type should be same.
+
+
+Method Overloading
+
+Definition:
+Method overloading is a feature in which two or more methods have the same name but different parameters (different number, type, or order of parameters) in the same class. It is an example of compile-time polymorphism.
+
+Features:
+
+`   Occurs in the same class.
+Method name is the same.
+Parameters must be different.
+Inheritance is not required.
+Achieves compile-time polymorphism.
+Method call is resolved at compile time.
+Method Overriding
+
+Definition:
+Method overriding is a feature in which a child class provides its own implementation of a method that is already defined in the parent class. It is an example of run-time polymorphism.
+
+Features:
+
+Occurs between a parent class and a child class.
+Method name must be the same.
+Parameters must be the same.
+Inheritance is required.
+Achieves run-time polymorphism.
+Method call is resolved at run time.
+The child class provides a new implementation of the inherited method.
