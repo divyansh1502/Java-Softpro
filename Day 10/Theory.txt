@@ -1,0 +1,16 @@
+                                        Exception Handling in Java:- 
+
+Exception:- Term Exception means abnormal termination. When exception is occured, then program is terminated abnormally and rest of code is not executed. In  Java there are following types of exception:-
+
+1. Checked Exceptions
+2. Unchecked Exceptions
+3. Errors
+
+1. Checked Exceptions:- Checked Exceptions are those exceptions which are occured at Compilation time.
+E.g. InterruptedException, ClassNotFoundException, IOException, FileNotFoundException, SQLException etc.
+
+2. Unchecked Exception:- Unchecked Exception are those exceptions which are occured at run-time.
+E.g. NullPointerException, ArithematicException, IputMismatchException, ArrayIndexOutOfBoundException etc.
+
+3. Errors:- Errors are occured due to lack of system resources. 
+E.g. AwtError, IOError etc.
