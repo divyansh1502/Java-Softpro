@@ -14,3 +14,21 @@ E.g. NullPointerException, ArithematicException, IputMismatchException, ArrayInd
 
 3. Errors:- Errors are occured due to lack of system resources. 
 E.g. AwtError, IOError etc.
+
+Exception Handling:- Exception Handling is a mechanism to handle exception to achieve normal execution of program. For exception Handling we use try, catch, finally, throw and throws keywords.
+In Java we can ahbdle exception in two ways:-
+1. By using try-catch block
+2. By using throws keyword
+
+Exception Handling using try-catch blocks:-
+try {
+    //code which you want to protect
+}
+catch(exceptionType obj) {
+    //code which is used to handle exception (alternative code)
+}
+finally {
+    //finally code is always executed 
+}
+
+Note:- For a single try block there can be multiple catch block.
