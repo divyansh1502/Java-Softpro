@@ -1,0 +1,45 @@
+Taking the input from the user using BufferedReader class:-
+
+BufferedReader is a class available in java.io package
+
+import java.io.*;
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+String name;
+name = br.readLine();
+int num1;
+num1 = Integer.parseInt(br.readLine());
+int num2;
+num1 = Float.parseFloat(br.readLine());
+int num3;
+num1 = Double.parseDouble(br.readLine());
+
+Note:- If you use BufferedReader class object to take input, then a checked exception named `IOException` will raised. So you need to handle this exception . 
+
+Interface:- Interface is a collection of abstract methods. Abstract methods are those methods which contain method declarations and no definition. Interface is used to achieve abstraction.
+    Interface is created by using interface keyword followed by `interface` name.
+
+    E.g.
+        interface MyInterface {
+            void m1(); //public abstract void m1();
+            void m2(); //public abstract void m2();
+        }
+
+Interface, Abstract class and Class:-
+
+1. Interface:- Interface is the container of abstract methods. If you have requirement but you don't know about its implementation then you can use interface bcz interface contain abstract method only.
+--> An interface extends extends another interface.
+--> You cannot create object of interface.
+
+Abstract Class:- Abstract Class is a class which contain abstract method and implemented method both. If you have requirements, you know implementation but not complete implementation then you can use abstract class, bcz abstract class contain abstract method and implemented method both.
+
+--> An abstract class can implement interface.
+--> An abstract class can extends another abstract class.
+--> You can't create object of abstract class.
+
+Class:- class is the collection of implemented method only. If you have requirements and you know full implementation, then you can use class.
+
+--> A class can implements interface.
+--> A class can extends abstract class.
+--> A class can extends another class.
+--> You can create object of class only.
