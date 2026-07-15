@@ -1,0 +1,18 @@
+Package:- Package is a collection of classes, interfaces and sub packages. Package is created by using package keyword followed by package name.
+
+package mypack.pack1;
+public class MyUtil() {
+    public int add(int x, int y) {
+        return x + y;
+    }
+    public int greatest(int x, int y) {
+        if(x>y) {
+            return x;
+        }
+        else {
+            return y;
+        }
+    }
+}
+
+

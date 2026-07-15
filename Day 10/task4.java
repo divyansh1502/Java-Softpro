@@ -22,6 +22,9 @@ public class task4 {
     catch (NumberFormatException e) {
             System.out.println("Can't convert a string containing letters into a number.");
     }
+    finally {
+        System.out.println("Finally block is always executed ");
+    }
     
   }  
 }
