@@ -6,7 +6,7 @@ public class palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string: ");
         String name = sc.nextLine();
-        boolean check = false;
+        boolean check = true;
 
                
 
@@ -14,8 +14,9 @@ public class palindrome {
             int n = name.charAt(name.length() - 1);
             if(name.charAt(i) == n) {
                 n--;
-                check = true;
                 continue;
+             } else {
+                check=true;
              }
     }
     if(check == true) {

@@ -1,0 +1,68 @@
+Programming Language, Software Technology, framework:-
+
+Programming language:- 
+
+--> Programming Language provides raw material for software development.
+--> programming Language provide syntaxes(rules) and semantics(guidelines) for s/w development.
+--> C, C++, Java, Python, C#, Go... are some popular programming languages.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Software Technology:- Software Technology are non installable software, but software developed by using Software Technology are installable. 
+E.g. JDBC is non installable, but the database drivers developed by using JDBC are installable.
+Software Technology are of 2 types:-
+1. Open Source Technology
+2. Close Source Technology
+
+1.Open Source Technology:- Source code of open source technology is available for users. The user can make changes in source code of open source technology. E.g. Java, Python, PHP, Android etc.
+2. Closed Source Technology:- Source code of close source technology is not available for users. E.g. Microsoft.net, IOS etc.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Framework:- Framework are installable software, they provide pre-designed architecture. By using framework you can develop software application easily. If you develop software by using software technology then you need to write the common code and application specific code both and if you develop software by using framework then you need to write the application specific code and framework take care of common code.
+
+Framework in different technologies:-
+Java:- Spring, Spring Boot, Hibernate, JSF(Java Server Faces), Struts.
+.Net:- MVC(Modern View Controller) Framework, Xamrine.
+PHP:- Laravel, Codeignitor, CakePHP.
+Python:- Django, Flask, FastAPI (Web Application)
+ML:- Scikit-Learn, Tensor flow, Keras, Theano etc.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Spring-Boot Framework:- Spring Boot is a framework written in powerful java programming language. Spring Boot framework is developed on the top of spring framework. Spring Boot framework follows MVC(Model View Controller) architecture.
+
+Model:- Model contain database part of your application.
+
+View:- View contain presentation part of your application.
+
+Controller:- Controller contain business logic implementation of your application.
+
+                 +-----------------------+
+                 |  Presentation Layer   |
+                 | (Controller / UI)     |
+                 +----------+------------+
+                            |
+                            v
+                 +-----------------------+
+                 | Business Logic Layer  |
+                 | (Rules & Processing)  |
+                 +----------+------------+
+                            |
+                            v
+                 +-----------------------+
+                 |   Service Layer       |
+                 | (Business Services)   |
+                 +----------+------------+
+                            |
+                            v
+                 +-----------------------+
+                 | Database Layer (DAO)  |
+                 | (Repository / DAO)    |<_____
+                 +----------+------------+      |
+                            |                   |
+                            v                   |
+                 +-----------------------+      |
+                 |      Database         |______|
+                 | (MySQL, Oracle, etc.) |
+                 +-----------------------+

@@ -11,9 +11,9 @@ public class numberGuessing {
         boolean guessed;
 
         for (int i = 1; i <= 5; i++) {
-    System.out.print("Attempt " + i + " - Enter a number between 1 and 100: ");
+    System.out.println("Attempt " + i + " - Enter a number between 1 and 100: ");
 
-    System.out.println("Enter a number between 1 to 100: ");
+    System.out.print("Enter a number between 1 to 100: ");
     int target = sc.nextInt();
 
     if (target > num) {
