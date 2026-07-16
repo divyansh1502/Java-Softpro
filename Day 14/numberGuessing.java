@@ -14,7 +14,7 @@ public class numberGuessing {
     System.out.println("Attempt " + i + " - Enter a number between 1 and 100: ");
 
     System.out.print("Enter a number between 1 to 100: ");
-    int target = sc.nextInt();
+    int target = sc.nextInt(); 
 
     if (target > num) {
         System.out.println("Number is too big");
